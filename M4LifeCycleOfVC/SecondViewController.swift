@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  M4LifeCycleOfVC
 //
 //  Created by Moore, Xander J. on 2/10/26.
@@ -7,31 +7,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad();
-        print("FirstVC viewDidLoad");
+        print("SecondVC viewDidLoad");
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
-        print("FirstVC viewWillAppear");
+        print("SecondVC viewWillAppear");
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
-        print("FirstVC viewDidAppear");
+        print("SecondVC viewDidAppear");
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated);
-        print("FirstVC viewWillDisappear");
+        print("SecondVC viewWillDisappear");
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated);
-        print("FirstVC viewDidDisappear");
+        print("SecondVC viewDidDisappear");
     }
-}
 
+}
